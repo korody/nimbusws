@@ -1,6 +1,6 @@
 # Site settings
 title: Lele Martino
-description: 'Lele Martino é o nome dela e seu estilo de soul bebe tanto no jazz quanto na MPB, sacudindo tudo com gingado e uma técnica apurada. Lele Martino tem um vozeirão que vem não se sabe de onde e uma segurança que a pouca idade e o corpo diminuto disfarçam bem até demais. Basta ouvir as primeiras frases que ela entoa para se render. O sopro que ela emite embala gostoso. É mais que um vento forte. É um vendaval que chega abrindo alas, como revela o single que ela acaba de lançar, antecipando um álbum cheio de balanço e musicalidade que sai em breve. Assim é o “Vendaval” de Lele Martino: forte, fluido e imprevisível. E ela vem chegando.'
+description: 'Lele Martino é o nome dela e seu estilo de soul bebe tanto no jazz quanto na MPB, sacudindo tudo com gingado e uma técnica apurada. Lele Martino tem um vozeirão que vem não se sabe de onde e uma segurança que a pouca idade e o corpo diminuto disfarçam bem até demais. Basta ouvir as primeiras frases que ela entoa para se render. O sopro que ela emite embala gostoso. É mais que um vento forte. É um vendaval que chega abrindo alas, como revela o single que ela acaba de lançar, antecipando um álbum cheio de balanço e musicalidade que sai em breve. Assim é o “Vendaval” de Lele Martino: forte, fluido e imprevisível. E ela vem chegando. - Celso Masson, editor de Cultura da IstoÉ'
 url: '{{ site.github.url }}'
 baseurl: '/'
 google_analytics: 'UA-91432946-1'
