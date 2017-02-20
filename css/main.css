@@ -50,3 +50,7 @@ pre.highlight code,
   position: relative;
   width: 16em;
 }
+
+.navigation--social {
+  margin-left: 0;
+}
