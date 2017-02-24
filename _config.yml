@@ -9,8 +9,8 @@ google_analytics: 'UA-53935109-1'
 contact:
   name: 'Equipe Nimbus'
   email: equipe@nimbusws.com.br
-  # facebook_username: lelemartinooficial
-  # instagram_username: lelemartinooficial
+  # facebook_username: nimbus
+  # instagram_username: nimbus
 
 defaults:
   -
