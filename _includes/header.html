@@ -10,7 +10,7 @@
     <div class="panel-main__content">
         <a href="{{ site.baseurl }}" title="link to home of {{ site.title }}">
           <img src="{{ "images/logo.png" | prepend: site.baseurl }}" class="home-logo" alt="logo">
-          <h1 class="panel-cover__title panel-title">o vendaval está chegando!</h1>
+          <h1 class="panel-cover__title panel-title">Gerencie projetos construtivos.</h1>
         </a>
         <hr class="panel-cover__divider">
         <p class="panel-cover__description">{{ site.description }}</p>
@@ -18,35 +18,15 @@
 
         <div class="navigation-wrapper">
 
-          <!-- <nav class="cover-navigation cover-navigation--primary">
+          <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-              <li class="navigation__item"><a href="https://www.eventbrite.com.br/e/lele-martino-show-de-lancamento-do-single-vendaval-tickets-31678260530" target="_blank" title="link to {{ site.title }} registration form">garanta o seu lugar no próximo show!</a></li>
+              <li class="navigation__item"><a href="https://nimbusws.com.br" title="entre na Nimbus Workspaces">entre na plataforma</a></li>
             </ul>
-          </nav> -->
+          </nav>
 
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
           
-            {% if site.contact.facebook_username %}
-              <!-- Facebook -->
-              <li class="navigation__item">
-                <a href="http://fb.me/{{ site.contact.facebook_username }}" title="{{ site.contact.facebook_username }} on Facebook" target="_blank">
-                  <i class="icon icon-social-facebook"></i>
-                  <span class="label">Facebook</span>
-                </a>
-              </li>
-            {% endif %}
-
-            {% if site.contact.instagram_username %}
-              <!-- LinkedIn -->
-              <li class="navigation__item">
-                <a href="https://www.instagram.com/{{ site.contact.instagram_username }}" title="{{ site.contact.instagram_username }} on Instagram" target="_blank">
-                  <i class="icon icon-social-instagram"></i>
-                  <span class="label">Instagram</span>
-                </a>
-              </li>
-            {% endif %}
-
             {% if site.contact.email %}
               <!-- Email -->
               <li class="navigation__item">
@@ -68,21 +48,4 @@
 
     <div class="panel-cover--overlay"></div>
   </div>
-
-  <!-- Facebook Pixel Code -->
-  <script>
-  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-  document,'script','https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1572312429463137'); // Insert your pixel ID here.
-  fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1572312429463137&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- DO NOT MODIFY -->
-  <!-- End Facebook Pixel Code -->
-  
 </header>
